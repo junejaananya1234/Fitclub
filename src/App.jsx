@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Header from './Components/Header/Header'
 import Hero from './Components/Hero/Hero'
 import './App.css'
+import Searching from './Components/Searching/Searching'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
 <Header></Header>
 <Hero></Hero>
+<Searching></Searching>
     </>
   )
 }
