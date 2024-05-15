@@ -2,24 +2,24 @@
 import { IoSearchCircleSharp } from "react-icons/io5";
 import { useState,useEffect } from "react";
 
-const url = 'https://exercisedb.p.rapidapi.com/exercises?limit=10';
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': '3e967742ccmshe87417d50838fa0p19bae3jsn6d941a75f7da',
-		'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
-	}
-};
+// const url = 'https://exercisedb.p.rapidapi.com/exercises?limit=10';
+// const options = {
+// 	method: 'GET',
+// 	headers: {
+// 		'X-RapidAPI-Key': '3e967742ccmshe87417d50838fa0p19bae3jsn6d941a75f7da',
+// 		'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
+// 	}
+// };
 
-try {
-	const response = await fetch(url, options);
-	const result = await response.text();
-	console.log(result);
-} catch (error) {
-	console.error(error);
-}
+// try {
+// 	const response = await fetch(url, options);
+// 	const result = await response.text();
+// 	console.log(result);
+// } catch (error) {
+// 	console.error(error);
+// }
 const Searching = ()=>{
- const [exercise, setExercise] = useState([])
+//  const [exercise, setExercise] = useState([])
  
  return(
         <>
